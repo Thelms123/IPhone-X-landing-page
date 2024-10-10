@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&display=swap");
+/* General style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background: url(img2\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+header{
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+#menu ul{
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+}
+#menu ul li{
+    display: inline;
+    margin: 0 10px;
+}
+#menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+#menu ul li a:hover{
+    color: #8f7e7e;
+    transition: all 0.3s ease;
+}
+.banner{
+    color: #333;
+    text-align: center;
+    padding: 85px 0;
+}
+.main h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Poppins";
+    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+    margin-bottom: 20px;
+}
+.main p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.Feature{
+    padding: 500px 0;
+}
+.Feature h2{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 12px;
+    text-decoration: underline;
+    color: #333;
+}
+.featured-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.featured{
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+.featured img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.pricing{
+    background: #f4f4f4;
+    padding: 50px 0;
+}
+.pricing h2{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.pricing-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plan{
+    background: #fff;
+    padding: 20px;
+    margin: 0 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0 , 0, 0.1);
+}
+.plan h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.plan p{
+    margin-bottom: 10px;
+}
+.plan strong{
+    font-size: 30px;
+}
+.cta-button{
+    display: block;
+    width: 200px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+.cta-button:hover{
+    background: #ccc;
+    color: #333;
+    border-color: #333;
+}
+footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+@media(max-width: 1022px){
+    .main h1{
+        font-size: 45px;
+    }
+    .main p{
+        font-size: 17px;
+    }
+}
+@media(max-width: 968px){
+.main{
+    margin: 0 20px;
+}
+}
+@media(max-width: 768px){
+    header{
+        padding: 20px 0;
+        background: none;
+    }
+    #menu ul li{
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        line-height: 1.6;
+    }
+    #menu ul li a{
+        color: #333;
+        transition: all 0.3s ease;
+        text-decoration: underline;
+    }
+    #menu ul li a:hover{
+        background: #333;
+        color: #fff;
+        text-decoration: none;
+    }
+    .banner{
+        padding: 50px 0;
+    }
+    .main h1{
+        font-size: 35px;
+    }
+    .main p{
+        font-size: 16px;
+    }
+    .Feature{
+        padding: 300px 0;
+    }
+    .Feature h2{
+        margin-bottom: 10px;
+    }
+    .featured-items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .featured{
+        width: 400px;
+        margin: 20px 0;
+    }
+    .pricing h2{
+        margin-bottom: 10px;
+    }
+    .pricing-table{
+        flex-direction: column;
+    }
+    .plan{
+        margin: 20px 0;
+    }
+    .plan strong{
+        font-size: 20px;
+    }
+}
+
