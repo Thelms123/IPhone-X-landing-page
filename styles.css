@@ -198,6 +198,9 @@ footer{
         width: 400px;
         margin: 20px 0;
     }
+    .featured img{
+    width: 200px;
+    }
     .pricing h2{
         margin-bottom: 10px;
     }
